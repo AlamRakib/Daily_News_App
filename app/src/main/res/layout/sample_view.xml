@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layIteam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_shade"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <ImageView
+            android:id="@+id/imageItemCoverId"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/baseline_image_24"
+            android:scaleType="centerCrop"
+            >
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/itemtag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAT"
+                android:background="#FFEB3B"
+                android:textColor="#F9F9F9"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="15dp"
+
+                >
+
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আপনারা সবাই তো আমারে খায়া ফেললেন: পররাষ্ট্রমন্ত্রী"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="3dp"
+
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/itemDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="‘বেহেশতে’ থাকা নিয়ে বক্তব্যের জন্য সমালোচনার মুখে পড়া পররাষ্ট্রমন্ত্রী এ কে আব্দুল মোমেন বলেছেন, তিনি কথার কথা বলেছেন। সেটা নিয়ে সাংবাদিকেরা তাঁকে বিপাকে ফেলেছেন।
+
+আজ রোববার বিকেলে রাষ্ট্রীয় অতিথি ভবন পদ্মায় বাংলাদেশ সফররত জাতিসংঘের মানবাধিকারবিষয়ক হাইকমিশনার মিশেল ব্যাশলেতের সঙ্গে বৈঠক করেন পররাষ্ট্রমন্ত্রী। ওই বৈঠক শেষে সাংবাদিকদের সঙ্গে আলাপকালে ‘বেহেশত’ প্রসঙ্গে কথা বলেন তিনি।"
+
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="3dp"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
